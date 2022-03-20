@@ -5,10 +5,17 @@ public class if_ {
 
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
+        int h = sc.nextInt();
+        int m = sc.nextInt();
 
-        for (int b = 1; b < 10; b++) {
-            System.out.println(a + " * " + b + " = " + (a * b));
+        if (m >= 45) {
+            System.out.println(h + " " + (m - 45));
+        }else{
+            if (h==0) {
+                System.out.println(23 + " " +(60+(m-45)));
+            }else{
+                System.out.println(h-1 +" "+(60+(m-45)));
+            }
         }
     }
 }
