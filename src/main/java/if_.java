@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //알람시계
 
 public class if_ {
     public static void main(String[] args) {
