@@ -7,7 +7,7 @@ public class test3 {
         arr[2] = 3;
 
         int[] copy = new int[arr.length*2];
-        System.out.println(copy.length열);
+        System.out.println(copy.length);
 
         for(int i = 0; i<arr.length; i++){
             copy[i] = arr[i];
