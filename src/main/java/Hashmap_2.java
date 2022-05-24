@@ -41,6 +41,12 @@ public class Hashmap_2 {
             System.out.println("dept : "+ rmap.get("dept"));
             System.out.println("-----------------------------");
         }
+        for (Map<String, String> rmap : list) {
+            System.out.println("name : "+ rmap.get("name"));
+            System.out.println("email : "+ rmap.get("email"));
+            System.out.println("addr : "+ rmap.get("addr"));
+            System.out.println("dept : "+ rmap.get("dept"));
+        }
 
     }
 }
