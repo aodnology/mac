@@ -11,3 +11,4 @@ public class Generic_ {
         generic<StringBuilder> g2 = new generic<StringBuilder>();
     }
 }
+
