@@ -15,8 +15,8 @@ public class String_Method {
         System.out.println("입력 문자열 ==> " + str);
         System.out.println("입력 문자열 ==> " + strRep);
         System.out.println("입력 문자열 ==> " + strSub);
-        for (int i = 0; i < strAry.length; i++){
-            System.out.println("분리한 문자열"+ i +"==>"+ strAry[i]);
+        for (int i = 0; i < strAry.length; i++) {
+            System.out.println("분리한 문자열" + i + "==>" + strAry[i]);
         }
     }
 }

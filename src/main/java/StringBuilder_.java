@@ -3,7 +3,6 @@ public class StringBuilder_ {
 
         StringBuilder sb = new StringBuilder("hello ");
         sb.append("world").append("1").append("2");
-
         System.out.println(sb);
     }
 }
