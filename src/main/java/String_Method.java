@@ -12,9 +12,9 @@ public class String_Method {
         strSub = str.substring(3, 8);                    //문자열을 추출하는 substring()
         strAry = str.split(" ");                   //문자열을 분리하는 split()  <== 요구 분석시 많이 쓰임
 
-        System.out.println("입력 문자열 ==> " + str);
-        System.out.println("입력 문자열 ==> " + strRep);
-        System.out.println("입력 문자열 ==> " + strSub);
+        System.out.println("입력 문자열 (replace)==> " + strRep);
+        System.out.println("입력 문자열 (substring)==> " + strSub);
+        System.out.println("입력 문자열 (split)==> " +str);
         for (int i = 0; i < strAry.length; i++) {
             System.out.println("분리한 문자열" + i + "==>" + strAry[i]);
         }
