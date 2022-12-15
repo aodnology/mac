@@ -32,6 +32,13 @@ class SubstractionableCalculator extends Calculator {
 
 public class CalculatorDemo {
     public static void main(String[] args) {
+
+        /*
+        System.out.println(10+20);
+        System.out.println(20+40); 중복되는 코드가 없어야 한다
+
+        // method : 중복을 없애기 위해 사용함
+         */
         SubstractionableCalculator c1 = new SubstractionableCalculator();
         c1.setOprands(10, 20);
         c1.sum();
