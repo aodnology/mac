@@ -1,3 +1,5 @@
+package baekjun;
+
 import java.util.Scanner;
 public class Bj_if_2 {
     public static void main(String[] args) {

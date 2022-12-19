@@ -1,3 +1,5 @@
+package baekjun;
+
 import java.util.Scanner;
 
 public class Bj_for_13 {
