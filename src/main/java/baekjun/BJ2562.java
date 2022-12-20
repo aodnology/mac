@@ -21,3 +21,4 @@ public class BJ2562 {
         System.out.println(index + 1); // 0부터 시작
     }
 }
+
