@@ -14,14 +14,14 @@ public class BJ10807 {
         // 같은 정수가 몇번 입력 됬는지 확인할 변수
         int count = 0;
 
-        for (int i = 0; i < n + 1; i++){
+        for (int i = 0; i < n + 1; i++) {
             arr[i] = s.nextInt();
         }
         // 정수 입력
         int v = s.nextInt();
 
-        for(int i = 0; i <arr.length; i++) {
-            if (v == arr[i]){
+        for (int i = 0; i < arr.length; i++) {
+            if (v == arr[i]) {
                 count++;
             }
         }

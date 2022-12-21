@@ -18,12 +18,11 @@ public class BJ8958 {
             int cnt = 0;
             int sum = 0;
 
-            for (int j = 0; j < arr[i].length(); j++){
+            for (int j = 0; j < arr[i].length(); j++) {
 
-                if(arr[i].charAt(j) == '0') {
+                if (arr[i].charAt(j) == '0') {
                     cnt++;
-                }
-                else {
+                } else {
                     cnt = 0;
                 }
                 sum += cnt;
